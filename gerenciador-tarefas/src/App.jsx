@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import NovaTarefa from './components/NovaTarefa';
 import Tarefas from './components/Tarefas';
 import BarraProgresso from './components/BarraProgresso';
+import './App.css';
 
 function App() {
   const [tarefas, setTarefas] = useState(() => {
