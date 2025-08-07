@@ -2,6 +2,7 @@ export default function Tarefas({ tarefas, onAlternarStatus }) {
   // Quantidade de tarefas concluídas
   const totalConcluidas = tarefas.filter(t => t.status === true).length;
   const totalTarefas = tarefas.length;
+  
 
   return (
     <div style={{ display: 'flex', gap: '20px' }}>
